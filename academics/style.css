@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: ;
+	background-color: #fff;
+}
+
+
+/*************************************************************
+	This is the styling codes for the index or home page
+*************************************************************/
+
+#center-items{
+	width: 100%;
+	background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('imgbg.jpg');
+    background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-color: #e0e0e0;
+}
+.login-box{
+	background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    padding-bottom:10px;
+}
+.login-heading{
+	border-radius: 10px 10px 0px 0px;
+	background-color: #C68C10;
+	color: #02004C;
+	padding:10px;
+}
+.login-heading h1{
+	margin: 0;
+}
+.errormsg{
+	margin-top: 5px;
+	padding:5px 0;
+	text-align: center;
+	font-size:17px;
+	font-weight: bold;
+	color: #f44336;
+	background-color:#000;
+}
+.login-body{
+	border-radius: 0px 0px 10px 10px;
+	background-color:#fff;
+}
+.login-data{
+	padding:5px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.login-data label{
+	text-align: left;
+	font-size:18px;
+	margin-bottom:5px;
+}
+.login-data .input-field{
+    width: 100%;
+    padding: 5px 10px;
+    font-size:17px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    box-sizing: border-box;
+}
+.input-field:focus {
+	border: none;
+	outline: none;
+    border-bottom: 2px solid #0F1745;
+}
+.login-data-btn{
+	padding: 5px 20px;
+	text-align: left;
+}
+.login-data-btn .login-button{
+	width: 100%;
+	background-color: #0F1745;
+	color: #ffffff;
+	padding:10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+
+/*************************************************************
+		This is the styling codes for the nav page
+*************************************************************/
+
+#navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 9vh;
+	background-color: #0F1745;
+	margin-bottom: 10px;
+	gap: 10px;
+}
+#navbar a{
+	text-decoration: none;
+	color: #fff;
+	font-size:20px;
+	padding:15px;
+}
+#navbar a:hover{
+	background-color: #fff;
+	color: #0f1745;
+}
+
+
+/*************************************************************
+		This is the styling codes for the dashboard page
+*************************************************************/
+
+#dashboard{
+	height:89vh;
+}
+.main-box{
+	width: 96%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+.box{
+	width: 24%;
+	padding:10px;
+	border-radius:10px;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+.box-top{
+	margin-bottom: 10px;
+}
+.box-top h1{
+	font-size:45px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.box-top p{
+	font-size: 20px;
+}
+.box-bottom{
+	width: 100%;
+	border-top:1px solid #eee;
+}
+.box-bottom a{
+	text-decoration: none;
+	color: #d18c02;
+}
+
+
+/*****************************************************************************************************
+	This is the styling codes for common items on Faculty, Department, Program and Group page
+******************************************************************************************************/
+
+#Content-holder{
+	height:89vh;
+}
+.content-items-width-space{
+	width:96%;
+	margin: auto;
+	overflow: auto;
+}
+.main-content{
+	display: flex;
+	gap:10px;
+}
+.content-left{
+	width:30%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+	height: 100%;
+}
+.w-22{
+	width: 22%;
+}
+.content-left form .data-form-top{
+	width: 100%;
+	padding:5px 0;
+	text-align: center;
+	margin-bottom:10px;
+	color: #fff;
+	background-color:#0F1745;
+}
+.content-left form .data-form-top h2{
+	font-size:26px;
+}
+.content-left form .data-form-body .data-form-body-item{
+	margin-bottom:10px;
+}
+.data-form-body .data-form-body-item label{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.data-form-body .data-form-body-item input[type='text'], .data-form-body .data-form-body-item select,
+.data-form-body .data-form-body-item input[type='time'],
+.data-form-body .data-form-body-item input[type='password'],
+.data-form-body .data-form-body-item input[type='email']{
+	display: block;
+	width: 100%;
+	font-size: 17px;
+	padding:5px 10px;
+
+}
+.data-form-body .data-form-body-item #form-btn{
+	padding:5px 20px;
+	font-size:17px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+	background-color: #00A884;
+	color: #fff;
+}
+.content-right{
+	width:69%;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+	height: 100%;
+	overflow: auto;
+}
+.w-77{
+	width: 77%;
+}
+.content-right table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.content-right table th{
+	padding:5px 10px;
+	font-size: 17px;
+	background-color: #0F1745;
+	color: #fff;
+}
+.thAction{
+	width: 10%;
+}
+.content-right table td{
+	text-align: center;
+	font-size: 17px;
+	padding:10px 5px;
+	border-bottom: 2px solid #efefef;
+}
+.content-right table tr:nth-child(even) {
+	background-color: #efefef;
+}
+.content-right table td.forAction{
+	display: flex;
+	gap:5px;
+}
+.btn{
+	padding:5px 10px;
+	cursor: pointer;
+	font-size: 17px;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.edit{
+	background-color: #0d99ff;
+}
+.delete{
+	background-color: #da190b;
+}
+
+
+/*************************************************************
+		This is the styling codes for the Course and Student page
+*************************************************************/
+
+#course-container{
+	height: 89vh;
+}
+.course-container-space-width{
+	width: 98%;
+	margin: auto;
+}
+.sectionadd{
+	width: 100%;
+	padding:10px;
+	background-color: #eee;
+	margin-bottom: 10px;
+}
+.sectionadd .addNew{
+	background-color: #2196F3;
+}
+.sectionTable{
+	padding-bottom: 10px;
+	overflow: auto;
+}
+.sectionTable h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sectionTable table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.sectionTable table th{
+	background-color:#0F1745;
+	padding:5px;
+	color: #fff;
+}
+.sectionTable table th.w3{
+	width:3%;
+}
+.sectionTable table th.w5{
+	width:5%;
+}
+.sectionTable table th.w6{
+	width:6%;
+}
+.sectionTable table th.w15{
+	width:15%;
+}
+.sectionTable table td{
+	text-align: center;
+	padding:5px 0;
+	font-size: 17px;
+}
+.sectionTable table td.tdAction{
+	display: flex;
+	justify-content: space-around;
+	gap: 5px;
+}
+.sectionTable table tr:nth-child(even) {
+	background-color: #eee;
+}
+
+#addCourse-modal, #addStudent-modal{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto; 
+}
+#updateCourse-modal, #updateStudent-modal{
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: auto; 
+}
+.addCourse-modal-data, .addStudent-modal-data, .updateStudent-modal-data{
+    background-color: #fefefe;
+    margin: 2% auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%; /* 80% width */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+.modalTitle{
+	background-color: #0f1745;
+	padding:10px 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.modalTitle h2{
+	color: #fff;
+}
+.modalContent{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+}
+.modalData{
+	width:48%;
+	padding:5px 0;
+}
+.modalData label{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.modalData input[type='text'], .modalData input[type='time'],
+.modalData input[type='password'], .modalData select{
+	width: 100%;
+	padding:5px 10px;
+	font-size: 17px;
+}
+.modatBtn{
+	width: 100%;
+	text-align: center;
+}
+.modatBtn input{
+	background-color: #2196F3;
+}
+
+
+/************************************************
+		This is for the Attendance Table
+************************************************/
+
+#attendance{
+	height: 89vh;
+}
+.attendance-width-space{
+	width: 98%;
+	margin: auto;
+}
+.main-search-filter{
+	padding:5px 10px;
+	margin-top:10px;
+	background-color:rgba(0, 0, 0, 0.1);
+}
+.main-search-filter input[type='text']{
+	padding:5px 10px;
+	font-size:17px;
+	width:29.5%;
+}
+.main-search-filter input[type='submit']{
+	padding:5px 10px;
+	font-size:17px;
+	width:10%;
+}
+.main-table-attendance{
+	width: 100%;
+	margin-top: 10px;
+}
+.main-table-attendance table{
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+}
+.main-table-attendance table tr:nth-child(even) {
+	background-color: #eee;
+}
+.main-table-attendance table th{
+	font-size:17px;
+	text-transform: uppercase;
+	padding:5px;
+	background-color:#c98f2e;
+	color: #fff;
+}
+.main-table-attendance table td{
+	font-size: 17px;
+	text-align: center;
+	padding:5px 0;
+}

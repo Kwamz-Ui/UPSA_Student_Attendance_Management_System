@@ -1,0 +1,373 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*body{
+	font-family: 'Poppins', 'Montserrat', 'Open Sans', 'Roboto', sans-serif;
+}*/
+
+/*************************************************************
+	This is the styling codes for the index or home page
+*************************************************************/
+
+#center-items{
+	width: 100%;
+	background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('imgbg.jpg');
+    background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-color: #e0e0e0;
+}
+.login-box{
+	background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding-bottom:10px;
+}
+.login-heading{
+	border-radius: 10px 10px 0px 0px;
+	background-color: #C68C10;
+	color: #02004C;
+	padding:10px;
+}
+.login-heading h1{
+	margin: 0;
+}
+.errormsg{
+	margin-top: 5px;
+	padding:5px 0;
+	text-align: center;
+	font-size:17px;
+	font-weight: bold;
+	color: #f44336;
+	background-color:#000;
+}
+.login-body{
+	border-radius: 0px 0px 10px 10px;
+	background-color:#fff;
+}
+.login-data{
+	padding:5px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.login-data label{
+	text-align: left;
+	font-size:18px;
+	margin-bottom:5px;
+}
+.login-data .input-field{
+    width: 100%;
+    padding: 5px 10px;
+    font-size:17px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    box-sizing: border-box;
+}
+.input-field:focus {
+	border: none;
+	outline: none;
+    border-bottom: 2px solid #0F1745;
+}
+.login-data-btn{
+	padding: 5px 20px;
+	text-align: left;
+}
+.login-data-btn .login-button{
+	width: 100%;
+	background-color: #0F1745;
+	color: #ffffff;
+	padding:10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+
+/*************************************************************
+	This is the styling codes for the Dashboard page
+*************************************************************/
+
+#stu-dashboard{
+	width: 100%;
+	height: 100vh;
+}
+#nav{
+	width: 100%;
+	padding:5px 20px;
+	background-color: #0B1742;
+	margin-bottom: 15px;
+}
+.nav-content{
+	padding:5px 0;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+.mobile{
+	display: none;
+}
+.nav-content a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #FFF;
+}
+#dashboard-content{
+	height:90vh;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+#dashboard-content .box{
+	width:25%;
+	height:100px;
+	padding:10px;
+	box-shadow:0 0 2px rgba(0, 0, 0, 0.4);
+	background-color: #e1e1e1;
+}
+#dashboard-content .box .top-box{
+	margin-bottom: 20px;
+}
+#dashboard-content .box .top-box h2{
+	text-align: center;
+}
+#dashboard-content .box .bottom-box{
+	margin-bottom: 10px;
+}
+#dashboard-content .box .bottom-box a{
+	width: 100%;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding:10px 90px;
+	color: #d18c02;
+}
+
+
+/*************************************************************
+	This is the styling codes for the Mark Attendance page
+*************************************************************/
+
+#markattendance{
+	height: 90vh;
+}
+.attendanceForm{
+	width:70%;
+	margin: auto;
+}
+.frmAttend{
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.frmAttend h2{
+	text-align: center;
+	background-color: #0B1745;
+	color: #FFF;
+	padding:10px 0;
+	margin-bottom: 10px;
+}
+.frmdata{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.frmdata label{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.frmdata input{
+	width: 100%;
+	padding:5px 10px;
+	font-size: 18px;
+}
+.button{
+	font-size:18px;
+	padding:10px 20px;
+	cursor: pointer;
+	background-color: #04AA6D;
+	color: #fff;
+	border-radius: 5px;
+	border:none;
+	outline: none;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
+.nocourse{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+/************************************************************
+	This is the syle codes for the attendance history page
+************************************************************/
+#attendhistory{
+	height: 90vh;
+}
+.sec-table{
+	width:98%;
+	margin: auto;
+	margin-bottom:10px;
+}
+.sec-table h3{
+	text-align: center;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.sec-table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.sec-table table th{
+	background-color:#0B1745;
+	color: #fff;
+}
+.sec-table table th, .sec-table table td {
+    padding: 8px;
+    text-align: center;
+}
+
+/*************************************************************
+	This is the styling codes for the scanner page
+*************************************************************/
+
+#scanner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#qr-reader{
+	width:32%;
+    height:370px;
+    border: none !important;
+}
+#html5-qrcode-anchor-scan-type-change{
+	display:none !important;
+}
+#html5-qrcode-button-camera-stop,#html5-qrcode-button-camera-start{
+	padding:6px 20px;
+	font-size:17px;
+	cursor: pointer;
+	border: none !important;
+	color: #fff;
+	margin-bottom: 10px;
+}
+#html5-qrcode-button-camera-start{
+	background-color: #059862;
+}
+#html5-qrcode-button-camera-stop{
+	background-color: #DA190B;
+}
+.result{
+	margin-top: 15px;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+/************************************************************
+		This is the syle codes for the mobile view
+************************************************************/
+
+@media only screen and (max-width:600px){
+
+/*Dashboard page*/
+#nav{
+	padding:5px 10px;
+}
+.desktop{
+	display: none;
+}
+.mobile{
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.nav-content a{
+	font-size: 16px;
+}
+#dashboard-content{
+	display: block;
+}
+#dashboard-content .box{
+	width:96%;
+	margin: auto;
+	margin-bottom: 20px;
+	padding:10px;
+	box-shadow:0 0 2px rgba(0, 0, 0, 0.4);
+	background-color: #e1e1e1;
+}
+#dashboard-content .box .bottom-box a{
+	width: 100%;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	padding:10px 80px;
+	color: #d18c02;
+}
+
+/*attendance page*/
+#markattendance{
+	height: 100vh;
+}
+.attendanceForm{
+	width: 90%;
+}
+.nocourse{
+	font-size: 22px;
+}
+
+/*History Page*/
+
+/* Hide table headers */
+.sec-table table thead {
+    display: none;
+}
+/* Make each table row display as a block */
+.sec-table table tbody tr {
+    display: block;
+    margin-bottom: 10px;
+    box-shadow:0 0 2px rgba(0, 0, 0, 0.2);
+}
+/* Display table cells as block elements */
+.sec-table table td {
+    display: block;
+    text-align: right; /* Align text to the right for mobile */
+}
+/* Style each cell */
+.sec-table table td:before {
+	content: attr(data-label);
+	float: left;
+	font-weight: bold;
+}
+
+/*This is for the scanner page*/
+#qr-reader{
+	width:90%;
+	height: auto;
+}
+#html5-qrcode-button-camera-stop,#html5-qrcode-button-camera-start{
+	padding:6px 10px;
+	font-size:15px;
+	margin-bottom: 0px;
+}
+.result{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+}

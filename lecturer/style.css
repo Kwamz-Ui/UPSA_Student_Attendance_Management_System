@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*body{
+	font-family: 'Poppins', 'Montserrat', 'Open Sans', 'Roboto', sans-serif;
+}*/
+
+/*************************************************************
+	This is the styling codes for the index or home page
+*************************************************************/
+
+#center-items{
+	width: 100%;
+	background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('imgbg.jpg');
+    background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center center;
+  	background-color: #e0e0e0;
+}
+.login-box{
+	background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    padding-bottom:10px;
+}
+.login-heading{
+	border-radius: 10px 10px 0px 0px;
+	background-color: #C68C10;
+	color: #02004C;
+	padding:10px;
+}
+.login-heading h1{
+	margin: 0;
+}
+.login-body{
+	border-radius: 0px 0px 10px 10px;
+	background-color:#fff;
+}
+.login-data{
+	padding:5px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.login-data label{
+	text-align: left;
+	font-size:18px;
+	margin-bottom:5px;
+}
+.login-data .input-field{
+    width: 100%;
+    padding: 5px 10px;
+    font-size:17px;
+    border: none;
+    border-bottom: 2px solid #eee;
+    box-sizing: border-box;
+}
+.input-field:focus {
+	border: none;
+	outline: none;
+    border-bottom: 2px solid #0F1745;
+}
+.login-data-btn{
+	padding: 5px 20px;
+	text-align: left;
+}
+.login-data-btn .login-button{
+	width: 100%;
+	background-color: #0F1745;
+	color: #ffffff;
+	padding:10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 17px;
+}
+
+
+/*************************************************************
+	This is the styling codes for the top nav side
+*************************************************************/
+
+#nav-bar{
+	width: 100%;
+	background-color: #0F1745;
+	margin-bottom: 10px;
+}
+.nav-bar-items{
+	display: flex;
+	justify-content: center;
+	gap:20px;
+}
+.nav-bar-items a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px 30px;
+}
+.nav-bar-items a:hover{
+	background-color: #C98F2E;
+	color: #fff;
+}
+.nav-bar-items a:nth-child(4):hover{
+	background-color: red;
+	color: #fff;
+}
+
+
+/*************************************************************
+	This is the styling codes for the QR Code page
+*************************************************************/
+
+#center-qrcode{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#e1e3e3;
+}
+.qrcode-card{
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.qrcode-card-heading {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333333;
+    text-align: center;
+}
+.qrcode-input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+#qrCodeBox{
+    display: none;
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+}
+.qrimg{
+    width:100%;
+    max-width:800px;
+    height:510px;
+}
+.generate-button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.generate-button:hover {
+    background-color: #2980b9;
+}
+
+
+/*************************************************************
+	This is the styling codes for the Attendance page
+*************************************************************/
+
+#attendance{
+	height:89vh;
+}
+.course{
+	width:98%;
+	margin: auto;
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+}
+.course .box{
+	width:32%;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+	padding: 10px 5px;
+}
+.course .box a{
+	text-decoration: none;
+	color: #000;
+}
+.course .box h3{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.course .box h4{
+	text-align: center;
+	margin-bottom: 5px;
+}
+.course .box p{
+	margin-bottom: 5px;
+}
+
+
+/********************************************
+	Style for the attendance table style
+********************************************/
+#attendancetable{
+	height: 89vh;
+	padding-bottom: 10px;
+}
+.fortable{
+	width: 96%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.fortable h3{
+	text-align: center;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.fortable table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.fortable table th{
+	font-size:18px;
+	padding:5px 0;
+	color: #fff;
+	background-color: #0B1745;
+}
+.fortable table td{
+	text-align: center;
+	padding:5px 10px;
+}

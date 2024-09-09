@@ -1,0 +1,41 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+	<title>UPSA - STUDENT ATTENDANCE SYSTEM - HOME</title>
+</head>
+<body>
+
+	<div id="center-items">
+		<div class="login-box">
+			<div class="login-heading">
+				<h1>Lecturer Login</h1>
+			</div>
+			<div class="login-body">
+				<form method="POST" action="crud.php">
+					<div class="login-data">
+						<label>Username</label>
+						<input type="text" class="input-field" name="user" placeholder="Username" required>
+					</div>
+					<div class="login-data">
+						<label>Password</label>
+						<input type="password" class="input-field" name="pass" placeholder="Password" required>
+					</div>
+					<div class="login-data-btn">
+						<button type="submit" class="login-button" name="login">Login</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
